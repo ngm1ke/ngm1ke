@@ -36,6 +36,19 @@ Solidity · Ethers.js · Web3.js · Wagmi · Hardhat
 ---
 
 ## 🔥 Featured Projects
+### 🎬 YouTube Converter – Video Processing Platform
+
+**AWS CDK · Lambda · SQS · DynamoDB · S3 · EC2 · FFmpeg · yt-dlp · TypeScript**
+
+A scalable video conversion platform built with **AWS and TypeScript**, using an event-driven architecture for asynchronous video processing.
+
+* Built an event-driven pipeline with **Lambda, SQS, DynamoDB, S3, and EC2**.
+* Implemented **MP3/MP4 conversion** using FFmpeg and yt-dlp.
+* Managed AWS infrastructure using **AWS CDK (Infrastructure as Code)**.
+* Implemented **IAM roles and permissions** for secure access between AWS services.
+
+🔗 [GitHub](https://github.com/ngm1ke/youtube-converter)
+
 ### 🎨 Drawly – Wireframe Drawing Tool
 
 **React · TypeScript · Canvas API · Redux**
