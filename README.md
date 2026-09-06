@@ -6,13 +6,6 @@ I'm a Full-Stack Developer with **4.5+ years of experience**, primarily focused 
 
 I enjoy exploring system architecture and building things from scratch to understand how they work under the hood.
 
-### 🚀 Currently
-
-I'm currently focusing on **improving my Backend engineering skills**, with a particular interest in:
-
-* System Design & Distributed Systems
-* Building scalable backend services
-
 ---
 
 ## 🛠️ Tech Stack
@@ -23,11 +16,11 @@ React.js · Next.js · TypeScript · React Query · Redux · TailwindCSS
 
 ### Backend
 
-Node.js · NestJS · Express · PostgreSQL · MongoDB
+Node.js · NestJS · Express · PostgreSQL · MongoDB · RabbitMQ · Redis
 
 ### DevOps
 
-Docker · Kubernetes · CI/CD · Git
+Docker · Kubernetes · CI/CD · Git · AWS
 
 ### Web3
 
@@ -36,16 +29,28 @@ Solidity · Ethers.js · Web3.js · Wagmi · Hardhat
 ---
 
 ## 🔥 Featured Projects
+
+### 🎟️ Eventix – High-Concurrency Ticketing Platform
+
+**NestJS · PostgreSQL · Redis · Kafka · Docker · AWS · TypeScript**
+
+A concert ticketing platform designed to handle huge QPS, focusing on concurrent ticket booking and data consistency.
+
+* Implemented **ticket reservation, concurrency control, and QR payment**.
+* Built an event-driven backend using **Redis, Kafka, and PostgreSQL**.
+* Deployed the system on **AWS** using Docker and CI/CD.
+
+🔗 [Preview](https://www.eventix.io.vn/) · [GitHub](https://github.com/ngm1ke/eventix)
+
 ### 🎬 YouTube Converter – Video Processing Platform
 
 **AWS CDK · Lambda · SQS · DynamoDB · S3 · EC2 · FFmpeg · yt-dlp · TypeScript**
 
-A scalable video conversion platform built with **AWS and TypeScript**, using an event-driven architecture for asynchronous video processing.
+A scalable video conversion platform using **event-driven architecture** for asynchronous video processing.
 
-* Built an event-driven pipeline with **Lambda, SQS, DynamoDB, S3, and EC2**.
+* Built an asynchronous pipeline with **Lambda, SQS, DynamoDB, S3, and EC2**.
 * Implemented **MP3/MP4 conversion** using FFmpeg and yt-dlp.
-* Managed AWS infrastructure using **AWS CDK (Infrastructure as Code)**.
-* Implemented **IAM roles and permissions** for secure access between AWS services.
+* Managed AWS infrastructure with **AWS CDK** and secured service access using IAM.
 
 🔗 [GitHub](https://github.com/ngm1ke/youtube-converter)
 
@@ -53,24 +58,23 @@ A scalable video conversion platform built with **AWS and TypeScript**, using an
 
 **React · TypeScript · Canvas API · Redux**
 
-A digital drawing and wireframing tool built with **React, TypeScript, and the Canvas API**, focusing on interactive graphics and editor-style interactions.
+A digital drawing and wireframing tool built with **React, TypeScript, and the Canvas API**.
 
-* Implemented core drawing interactions including **object selection, drag & drop, and resizing**.
-* Added **undo/redo** functionality for editing history.
+* Implemented object selection, drag & drop, resizing, and **undo/redo**.
 * Managed application state with **Redux**.
 * Built a responsive interface for creating and editing wireframes.
 
 🔗 [Live Demo](https://drawly-ngm1ke.vercel.app/) · [GitHub](https://github.com/ngm1ke/drawly)
+
 ### 🧩 Micro Frontend Marketplace
 
 **React · Vue · Vite Module Federation · Web Components**
 
 A marketplace built to explore **Micro Frontend architecture** with independently developed and deployed applications.
 
-* Integrated **React and Vue** remotes into a single application.
-* Used **Vite Module Federation** for runtime integration between applications.
+* Integrated **React and Vue** applications using Vite Module Federation.
 * Built a shared UI layer using **Web Components**.
-* Implemented shared state synchronization for product and cart data without tightly coupling the remotes.
+* Implemented shared state synchronization between remotes.
 
 🔗 [Live Demo](https://micro-frontends-app.vercel.app/) · [GitHub](https://github.com/ngm1ke/micro-frontends)
 
@@ -80,11 +84,9 @@ A marketplace built to explore **Micro Frontend architecture** with independentl
 
 A high-performance cryptocurrency trading dashboard consuming **Binance REST API and WebSocket streams**.
 
-* Real-time **Candlestick Chart, Order Book, Trade History, and ticker data**.
-* Used a combined WebSocket stream to efficiently process high-frequency market updates.
-* Batched UI updates with **`requestAnimationFrame`** to reduce unnecessary renders.
-* Used **TanStack Virtual** to efficiently render large Order Book datasets.
-* Applied memoized selectors to minimize unnecessary Redux-driven re-renders.
+* Implemented real-time **Candlestick Chart, Order Book, Trade History, and ticker data**.
+* Batched high-frequency updates with **`requestAnimationFrame`**.
+* Used **TanStack Virtual** and memoized selectors to optimize rendering.
 
 🔗 [Live Demo](https://trading-dashboard-mike.vercel.app/) · [GitHub](https://github.com/ngm1ke/trading)
 
@@ -92,15 +94,13 @@ A high-performance cryptocurrency trading dashboard consuming **Binance REST API
 
 **React · NestJS · WebSocket · Operational Transformation**
 
-A minimal real-time collaborative document editor built to understand the fundamentals behind **Google Docs-style collaboration**.
+A real-time collaborative document editor built to understand **Google Docs-style collaboration**.
 
 * Implemented **Operational Transformation (OT)** from scratch.
-* Synchronizes document changes between multiple connected clients.
-* Handles concurrent edits and transforms operations to maintain document consistency.
-* Built the collaboration layer using **WebSockets** with a NestJS backend.
+* Handled concurrent edits and document synchronization between clients.
+* Built the collaboration layer using **WebSockets with NestJS**.
 
 🔗 [Live Demo](https://google-docs-clone-tau-mauve.vercel.app/) · [GitHub](https://github.com/ngm1ke/google-docs-clone)
-
 
 ---
 
