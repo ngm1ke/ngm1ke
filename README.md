@@ -22,10 +22,6 @@ Node.js · NestJS · Express · PostgreSQL · MongoDB · RabbitMQ · Redis
 
 Docker · Kubernetes · CI/CD · Git · AWS
 
-### Web3
-
-Solidity · Ethers.js · Web3.js · Wagmi · Hardhat
-
 ---
 
 ## 🔥 Featured Projects
@@ -53,43 +49,6 @@ A scalable video conversion platform using **event-driven architecture** for asy
 * Managed AWS infrastructure with **AWS CDK** and secured service access using IAM.
 
 🔗 [GitHub](https://github.com/ngm1ke/youtube-converter)
-
-### 🎨 Drawly – Wireframe Drawing Tool
-
-**React · TypeScript · Canvas API · Redux**
-
-A digital drawing and wireframing tool built with **React, TypeScript, and the Canvas API**.
-
-* Implemented object selection, drag & drop, resizing, and **undo/redo**.
-* Managed application state with **Redux**.
-* Built a responsive interface for creating and editing wireframes.
-
-🔗 [Live Demo](https://drawly-ngm1ke.vercel.app/) · [GitHub](https://github.com/ngm1ke/drawly)
-
-### 🧩 Micro Frontend Marketplace
-
-**React · Vue · Vite Module Federation · Web Components**
-
-A marketplace built to explore **Micro Frontend architecture** with independently developed and deployed applications.
-
-* Integrated **React and Vue** applications using Vite Module Federation.
-* Built a shared UI layer using **Web Components**.
-* Implemented shared state synchronization between remotes.
-
-🔗 [Live Demo](https://micro-frontends-app.vercel.app/) · [GitHub](https://github.com/ngm1ke/micro-frontends)
-
-### 📈 Binance Real-Time Trading Dashboard
-
-**Next.js · TypeScript · Redux Toolkit · WebSocket · Lightweight Charts · TanStack Virtual**
-
-A high-performance cryptocurrency trading dashboard consuming **Binance REST API and WebSocket streams**.
-
-* Implemented real-time **Candlestick Chart, Order Book, Trade History, and ticker data**.
-* Batched high-frequency updates with **`requestAnimationFrame`**.
-* Used **TanStack Virtual** and memoized selectors to optimize rendering.
-
-🔗 [Live Demo](https://trading-dashboard-mike.vercel.app/) · [GitHub](https://github.com/ngm1ke/trading)
-
 ### 📝 Google Docs Clone
 
 **React · NestJS · WebSocket · Operational Transformation**
