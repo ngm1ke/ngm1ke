@@ -28,7 +28,7 @@ Docker · Kubernetes · CI/CD · Git · AWS
 
 ### 🎟️ Eventix – High-Concurrency Ticketing Platform
 
-**NestJS · PostgreSQL · Redis · Kafka · Docker · AWS · TypeScript**
+**NestJS · PostgreSQL · Redis · Kafka · Docker · AWS · Langchain**
 
 A concert ticketing platform designed to handle huge QPS, focusing on concurrent ticket booking and data consistency.
 
@@ -49,6 +49,19 @@ A scalable video conversion platform using **event-driven architecture** for asy
 * Managed AWS infrastructure with **AWS CDK** and secured service access using IAM.
 
 🔗 [GitHub](https://github.com/ngm1ke/youtube-converter)
+
+### 🧩 Micro Frontend Marketplace
+
+**React · Vue · Vite Module Federation · Web Components**
+
+A marketplace built to explore **Micro Frontend architecture** with independently developed and deployed applications.
+
+* Integrated **React and Vue** applications using Vite Module Federation.
+* Built a shared UI layer using **Web Components**.
+* Implemented shared state synchronization between remotes.
+
+🔗 [Live Demo](https://micro-frontends-app.vercel.app/) · [GitHub](https://github.com/ngm1ke/micro-frontends)
+
 ### 📝 Google Docs Clone
 
 **React · NestJS · WebSocket · Operational Transformation**
